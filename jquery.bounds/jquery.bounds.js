@@ -31,7 +31,7 @@
 		pos.y = pos.top;
 		pos.inner = {width: t.width(), height: t.height()};
 		
-		$.extend(pos, {toString: function(){ var t = this; return 'x: ' + t.x + ' y: ' + t.y + ' width: ' + t.width + ' height: ' + t.height + ' right: ' + t.right + ' bottom: ' + t.bottom; }});
+		$.extend(pos, {toString: function(){ let t = this; return 'x: ' + t.x + ' y: ' + t.y + ' width: ' + t.width + ' height: ' + t.height + ' right: ' + t.right + ' bottom: ' + t.bottom; }});
 		
             	return pos;
         };
