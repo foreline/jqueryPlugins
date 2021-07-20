@@ -5,7 +5,7 @@
  * Description: Finds bounds (top, bottom, left, right, width, height) of an element.
  * 
  * Usage:
- * let bounds = $("#someID").bounds();
+ * let bounds = $("#elementID").bounds();
  * let top = bounds.top;
  * let left = bounds.top;
  * let width = bounds.width;
